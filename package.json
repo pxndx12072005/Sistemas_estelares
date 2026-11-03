@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@react-three/fiber": "9.6.1",
-    "@react-three/postprocessing": "3.0.2",
+    "@react-three/postprocessing": "^3.0.4",
     "@react-three/rapier": "2.2.0",
     "lucide-react": "1.21.0",
     "react": "19.2.7",
