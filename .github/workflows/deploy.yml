@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: 22
       - name: Instalar dependencias
-        run: npm install --no-audit --no-fund --legacy-peer-deps
+        run: npm install --no-audit --no-fund --force
       - name: Compilar el juego
         run: npm run build
       - uses: actions/upload-pages-artifact@v4
